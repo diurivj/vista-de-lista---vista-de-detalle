@@ -1,0 +1,8 @@
+<h1>Beers</h1>
+
+{{#each beers as |beer|}}
+<a href="/beer/{{beer._id}}">
+  <img src={{beer.image}} alt={{beer.name}} />
+</a>
+
+{{/each}}
